@@ -1,0 +1,24 @@
+* FILE: Read.Me
+* CLASS: CSC35500 Project #2 
+* AUTHOR: Amber Goodman
+* DATE: 11/2024
+
+
+
+
+Software Engineering Log: 
+
+	Session 1: 
+		Created a new thread for each plane
+		made the plane actions into a function
+		
+1. Try running your program with only 9 passengers. What happens? Why?
+
+	The program will deadlock because there are not enough passengers for atleast one plane to be full and 
+	take off. 
+	
+2. Try running your program with 10 passengers. What happens? Why?
+3. Try running your program with 42 passengers and 100 tours. What happens? why?
+4. Try running your program with 79 passengers and 20 tours. What happens? Why?
+5. What is the minimum number of passengers that will guarantee avoidance of
+deadlock? Why?
